@@ -1,0 +1,28 @@
+order_id,customer_name,email,age,country,purchase_date,product,quantity,unit_price,total_revenue,payment_method,customer_segment
+1001,John Smith,john.smith@email.com,34,Usa,2023-01-15,Laptop,1,999.99,999.99,Credit Card,Premium
+1002,Jane Doe,jane@email.com,27,Usa,2023-01-16,Phone,2,499.99,999.98,Debit Card,Standard
+1003,Mike Johnson,mike.j@email.com,33,Uk,2023-01-17,Tablet,1,299.99,299.99,Credit Card,Premium
+1006,Tom Brown,tom.b@email.com,45,Canada,2023-01-19,Phone,1,499.99,499.99,PayPal,Premium
+1007,Lisa Davis,lisa.d@email.com,33,Australia,2023-01-20,Tablet,2,299.99,599.98,Credit Card,Standard
+1008,James Wilson,james.w@email.com,38,Usa,2023-01-21,Laptop,1,999.99,999.99,Unknown,Premium
+1009,Emma Moore,emma.m@email.com,29,Germany,2023-01-22,Phone,3,499.99,1499.97,Debit Card,Standard
+1010,Chris Taylor,chris.t@email.com,52,France,2023-01-23,Laptop,1,999.99,999.99,Credit Card,Premium
+1011,Anna White,anna.w@email.com,41,Usa,2023-01-24,Tablet,1,299.99,299.99,PayPal,Standard
+1012,David Harris,david.h@email.com,36,Uk,2023-01-25,Phone,2,499.99,999.98,Credit Card,Standard
+1013,Sophie Martin,sophie.m@email.com,28,France,2023-01-26,Laptop,1,999.99,999.99,Debit Card,Premium
+1014,Oliver Lee,oliver.l@email.com,33,Australia,2023-01-27,Tablet,3,299.99,899.97,Credit Card,Standard
+1016,Jack Thompson,jack.t@email.com,33,Canada,2023-01-28,Laptop,1,999.99,999.99,PayPal,Premium
+1017,Olivia Garcia,olivia.g@email.com,25,Usa,2023-01-29,Phone,1,499.99,499.99,Credit Card,Standard
+1018,Harry Martinez,harry.m@email.com,44,Spain,2023-01-30,Tablet,2,299.99,599.98,Debit Card,Premium
+1019,Isabella Robinson,isabella.r@email.com,31,Usa,2023-01-31,Laptop,1,999.99,999.99,Credit Card,Standard
+1020,Lucas Clark,lucas.c@email.com,29,Uk,2023-02-01,Phone,2,499.99,999.98,PayPal,Standard
+1021,Mia Lewis,mia.l@email.com,37,Canada,2023-02-02,Tablet,1,299.99,299.99,Credit Card,Premium
+1022,Ethan Walker,ethan.w@email.com,43,Australia,2023-02-03,Laptop,1,999.99,999.99,Debit Card,Standard
+1023,Charlotte Hall,charlotte.h@email.com,26,Germany,2023-02-04,Phone,4,499.99,1999.96,Credit Card,Standard
+1024,Mason Allen,mason.a@email.com,55,France,2023-02-05,Tablet,1,299.99,299.99,PayPal,Premium
+1025,Amelia Young,amelia.y@email.com,32,Usa,2023-02-06,Laptop,1,999.99,999.99,Credit Card,Standard
+1026,Logan Hernandez,logan.h@email.com,48,Spain,2023-02-07,Phone,2,499.99,999.98,Debit Card,Premium
+1027,Harper King,harper.k@email.com,22,Uk,2023-02-08,Tablet,3,299.99,899.97,Credit Card,Standard
+1028,Elijah Wright,elijah.w@email.com,39,Canada,2023-02-09,Laptop,1,999.99,999.99,PayPal,Standard
+1029,Abigail Lopez,abigail.l@email.com,27,Australia,2023-02-10,Phone,1,499.99,499.99,Credit Card,Premium
+1030,Benjamin Hill,benjamin.h@email.com,33,Usa,2023-02-11,Tablet,2,299.99,599.98,Debit Card,Standard

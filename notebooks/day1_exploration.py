@@ -1,16 +1,26 @@
+# ============================================
+# Google Merchandise Store — Funnel Analysis
+# Author: Cindy Robina
+# Date: June 2026
+# Goal: Analyze customer journey from cart to purchase
+# Key finding: 49% of cart users never reach checkout
+# ============================================
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 
+# ── DATA LOADING ───────────────────────────────
+# Load the events dataset with dates parsed upfront
+# to avoid conversion issues later in the analysis
+
 df = pd.read_csv("data\events", parse_dates=['date'])
 
-"""print(df.columns.to_list())
-print('The number of unique users:',df['user_id'].nunique())
-print(df['type'].value_counts())
-print(df['country'].value_counts().head(10))
-print(df['device'].value_counts())"""
-
+# ── EVENT TYPE FILTER FUNCTION ─────────────────
+# Reusable function to filter by event type
+# Avoids repeating df[df['type']==...] throughout
 # What % of add_to_cart users started checkout
+
 def get_event(event_type, dataframe = df):
    event_type = dataframe[dataframe['type'] == event_type]
    return(event_type)
@@ -38,10 +48,16 @@ conversion = round(purchases / total * 100, 2)
 
 
 conversion = pd.DataFrame({'purchases': purchases, 'total': total, 'conversion%': conversion})
+print(conversion)
 
 # Which country has the most purchases?
 country = get_event('purchase')['country'].value_counts().head(10).reset_index()
 print(get_event('purchase')[['country','item_id']].value_counts(ascending = False).groupby(by = 'country').head(1))
+
+# ── FUNNEL ANALYSIS ────────────────────────────
+# Count unique users per event type
+# Key finding: only 4,066 of 12,545 cart users purchased
+# That's a 67% overall drop off rate
 
 unique_users = df.groupby('type')['user_id'].nunique()
 unique_users['cart_dropped'] = unique_users.loc['add_to_cart'] - unique_users.loc['begin_checkout']
@@ -49,9 +65,7 @@ unique_users['cart_abandoned'] = unique_users.loc['begin_checkout'] - unique_use
 print(unique_users)
 
 
-
-
-# Visualizations
+# Sankey Chart
 fig = go.Figure(go.Sankey(
    node = dict(
       label = ['add_to_cart', 'begin_checkout', 'purchase', 'cart_dropped', 'cart_abandoned'],
@@ -112,7 +126,7 @@ dates = get_event('purchase').groupby('date_only')['user_id'].count().reset_inde
 dates.columns = ['date', 'purchase_count']
 print(dates)
 
-#Visualizations
+# Line Chart
 fig = go.Figure(
    [go.Scatter(
       x = dates['date'],
