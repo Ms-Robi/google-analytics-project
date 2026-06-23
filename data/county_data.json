@@ -1,0 +1,19 @@
+{
+  "county": "Uasin Gishu",
+  "population": 1163186,
+  "facilities": [
+    {"name": "Moi Teaching and Referral Hospital", "type": "Hospital", "beds": 800},
+    {"name": "Eldoret District Hospital", "type": "Hospital", "beds": 250},
+    {"name": "Kapsoya Health Centre", "type": "Clinic", "beds": 20},
+    {"name": "Langas Dispensary", "type": "Dispensary", "beds": 5}
+  ],
+  "monthly_rainfall_mm": {
+    "month": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "rainfall": [45, 38, 90, 180, 150, 95]
+  },
+  "leadership": {
+    "governor": "Jonathan Bii",
+    "deputy_governor": "Patrick Murunga",
+    "term_start": "2022-08-25"
+  }
+}

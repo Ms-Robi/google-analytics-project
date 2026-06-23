@@ -1,0 +1,21 @@
+{
+    "report_date": "2024-03-10",
+    "warehouses": [
+        {
+            "name": "Eldoret Central",
+            "region": "Rift Valley",
+            "stock": [
+                {"product": "Maize Seeds", "units": 320},
+                {"product": "Fertilizer", "units": 85}
+            ]
+        },
+        {
+            "name": "Kisumu Depot",
+            "region": "Nyanza",
+            "stock": [
+                {"product": "Maize Seeds", "units": 150},
+                {"product": "Pesticide", "units": 40}
+            ]
+        }
+    ]
+}

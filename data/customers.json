@@ -1,0 +1,29 @@
+[
+  {
+    "customer_id": 1001,
+    "name": "John Smith",
+    "country": "USA",
+    "orders": [
+      {"product": "Laptop", "price": 999.99, "date": "2023-01-15"},
+      {"product": "Phone", "price": 499.99, "date": "2023-02-10"}
+    ]
+  },
+  {
+    "customer_id": 1002,
+    "name": "Jane Doe",
+    "country": "Canada",
+    "orders": [
+      {"product": "Tablet", "price": 299.99, "date": "2023-01-20"}
+    ]
+  },
+  {
+    "customer_id": 1003,
+    "name": "Mike Johnson",
+    "country": "UK",
+    "orders": [
+      {"product": "Laptop", "price": 999.99, "date": "2023-02-01"},
+      {"product": "Phone", "price": 499.99, "date": "2023-02-15"},
+      {"product": "Tablet", "price": 299.99, "date": "2023-03-01"}
+    ]
+  }
+]

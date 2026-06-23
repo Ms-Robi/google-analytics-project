@@ -1,0 +1,13 @@
+order_id,customer_name,email,age,region,order_date,product,quantity,unit_price,payment_method,vip_status
+5001,Alice Wanjiru,alice.w@email.com,29,Rift Valley,2024-03-01,Maize Seeds,5,450.00,Mpesa,No
+5002,brian otieno,brian.o@email.com,35,Nyanza,2024/03/02,Fertilizer,2,1200.00,Cash,no
+5003,CAROL NJOKI,carol.n@email.com,150,Central,2024-03-03,Maize Seeds,3,450.00,Mpesa,Yes
+5004,David Kiptoo,david.k@email.com,,Rift Valley,2024-03-04,Pesticide,1,800.00,,No
+5005,Alice Wanjiru,alice.w@email.com,29,Rift Valley,2024-03-01,Maize Seeds,5,450.00,Mpesa,No
+5006,Emma Achieng,emma.a@email.com,41,Nyanza,2024-03-05,Fertilizer,0,1200.00,Cash,no
+5007,Felix Mwangi,felix.m@email.com,38,Central,2024/03/06,Pesticide,2,800.00,Mpesa,Yes
+5008,grace wairimu,grace.w@email.com,N/A,Coast,2024-03-07,Maize Seeds,4,450.00,Cash,No
+5009,Henry Kibet,henry.k@email.com,44,Rift Valley,2024-03-08,Fertilizer,1,1200.00,Mpesa,yes
+5010,Irene Chebet,irene.c@email.com,999,Rift Valley,2024-03-09,Pesticide,3,800.00,Cash,No
+5011,Emma Achieng,emma.a@email.com,41,Nyanza,2024-03-05,Fertilizer,0,1200.00,Cash,no
+5012,Joseph Mutua,joseph.m@email.com,27,Central,2024-03-10,Maize Seeds,2,450.00,Mpesa,No

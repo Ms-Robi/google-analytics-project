@@ -1,0 +1,8 @@
+{
+  "region": "Rift Valley",
+  "rainfall_mm": {
+    "month": ["Jan", "Feb", "Mar", "Apr"],
+    "rainfall": [40, 35, 95, 175]
+  }
+}
+
